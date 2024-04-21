@@ -10,10 +10,13 @@ body{
     justify-content: space-between;
     align-items: center;
     padding:0 48px;
+    color: white;
+    background-color: #261C2C;
 }
 
 .left strong {
     font-size: 24px;
+    
 }
 
 .right ul {
@@ -21,3 +24,52 @@ display: flex;
 gap: 16px;
 list-style: none;
 }
+
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 84px 48px; 
+    background-color: #261C2C;
+}
+
+.first-container .left-container {
+    color: white;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sub-title {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+button{
+    background-color:#d5cc81; 
+    border-style: hidden;
+    border-radius: 8px;
+    padding:8px 32px;
+    color:#1F2937;
+    font-weight: bold;
+    margin: 8px 0px;
+    flex-shrink: 0;
+    
+}
+
+.right-container {
+
+    
+    flex-basis: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    width:100px ;
+    height:300px 
+}
+
+
+
