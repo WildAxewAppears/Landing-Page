@@ -59,9 +59,14 @@ button{
     
 }
 
-.right-container {
+a {
+text-decoration: none;
+color: white;
 
-    
+
+}
+
+.right-container {
     flex-basis: 600px;
     justify-content: center;
     align-items: center;
@@ -71,5 +76,48 @@ button{
     height:300px 
 }
 
+.second-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:32px;
+padding: 24px 84px 64px;
+}
 
+.s-title{
+    font-size: 36px;
+    font-weight: bolder
+}
 
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-size: smaller;
+    gap: 80px;
+    flex-wrap: wrap;
+    
+}
+
+.cards .lol{
+    width: 180px;
+    height: 368px;
+    border: 3px;
+    border-style: solid;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.40);
+}
+
+.lol img{
+
+    border-bottom: 3px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-style: solid;
+}
+
+ .lol .descrizione {
+    font-size: 15px;
+ }
