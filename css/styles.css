@@ -20,9 +20,9 @@ body{
 }
 
 .right ul {
-display: flex;
-gap: 16px;
-list-style: none;
+    display: flex;
+    gap: 16px;
+    list-style: none;
 }
 
 .first-container{
@@ -60,8 +60,8 @@ button{
 }
 
 a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 
 
 }
@@ -77,12 +77,12 @@ color: white;
 }
 
 .second-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap:32px;
-padding: 24px 84px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    padding: 24px 84px 64px;
 }
 
 .s-title{
@@ -102,8 +102,8 @@ padding: 24px 84px 64px;
 }
 
 .cards .lol{
-    width: 180px;
-    height: 368px;
+    width: 210px;
+    height: 358px;
     border: 3px;
     border-style: solid;
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.40);
@@ -121,3 +121,75 @@ padding: 24px 84px 64px;
  .lol .descrizione {
     font-size: 15px;
  }
+
+ .recipiente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 84px;
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px;
+    background-color: #9290C3;
+}
+
+
+
+
+
+.recipiente{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipiente .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 750px;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px;
+}
+
+.box {
+display: flex;
+align-items: center;
+gap:80px;
+padding: 24px 84px;
+background-color: #535C91;
+border-radius: 8px;
+color: white;
+}
+
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px;
+background-color: #261C2C;
+color: white;
+font-size: smaller;
+}
+
+.ending {
+
+}
+
