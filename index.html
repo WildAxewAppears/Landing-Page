@@ -7,7 +7,7 @@
     <title>Crowings</title>
 </head>
 
-<body>
+<body onclick="myFunction()">
     <div class="header">
         <div class="left">
             <strong>Crowings</strong>
@@ -103,6 +103,41 @@
             Copyright © WildAxewAppears 2024
         </div>
     </div>
+
+    <div id = "shitpost">
+        <h1 id = "alteratitle">Altera meme</h1>
+        <a id = "thing" href = "https://www.youtube.com/watch?v=Vh5r7UKbHpY" target = "_blank">
+            <img id = "altera" src = "./img/altera.gif">
+            <audio id = "altera-song"><source src = "./audio/altera.mp3"></source></audio>
+        </a>
+    </div>
+
+    <script>
+       var fate = document.getElementById('altera'),
+       music = document.getElementById('altera-song')
+        audios = document.querySelectorAll('audio');
+        console.log(audios);
+
+        fate.addEventListener('mouseover', function() {
+        [].forEach.call(audios, function(audio) {
+        music.play();
+        });
+        }, false);
+
+        fate.addEventListener('mouseleave', function() {
+        music.pause();
+        music.currentTime = 0;
+        }, false);
+
+        function myFunction() {
+            document.getElementById("shitpost").style.display = "block";
+        }
+    </script>
+
+
+
+
+
 
 </body>
 </html>
